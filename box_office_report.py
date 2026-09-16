@@ -7,17 +7,18 @@
 
 
 adultTicket = 10.00
-kidsTicket = 6.00
+childTicket = 6.00
 
 movieTitle = "Movie Title: "
-adultsWatching = "Adults Watching: "
-kidsWatching = "Kids Watching: "
+adultsWatching = "Adult Tickets Sold: "
+kidsWatching = "Child Tickets Sold: "
 
 inputTitle = input(movieTitle)
 inputAdults = input(adultsWatching)
-inputKids = input(kidsWatching)
+inputChild = input(kidsWatching)
 
+# Check output
 print(inputTitle)
 print(inputAdults)
-print(inputKids)
+print(inputChild)
 
