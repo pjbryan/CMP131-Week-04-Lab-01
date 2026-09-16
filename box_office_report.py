@@ -10,12 +10,12 @@ adultTicket = 10.00
 childTicket = 6.00
 
 movieTitle = "Movie Title: "
-adultsWatching = "Adult Tickets Sold: "
-kidsWatching = "Child Tickets Sold: "
+adultTicketsSold = "Adult Tickets Sold: "
+childTicketsSold = "Child Tickets Sold: "
 
 inputTitle = input(movieTitle)
-inputAdults = input(adultsWatching)
-inputChild = input(kidsWatching)
+inputAdults = int(input(adultTicketsSold))
+inputChild = int(input(childTicketsSold))
 
 # Check output
 print(inputTitle)
