@@ -436,9 +436,9 @@ Use the following public starter repository:
 
 ### Before You Submit
 
-- [ ] All required Python files are in the repository root.
-- [ ] Every required filename is exact.
-- [ ] Each program runs successfully.
-- [ ] Required tests and screenshots are complete.
+- [x] All required Python files are in the repository root.
+- [x] Every required filename is exact.
+- [x] Each program runs successfully.
+- [x] Required tests and screenshots are complete.
 - [ ] `AI-Use-Report.md` is complete and accurate.
 - [ ] The latest commit is visible on GitHub.
