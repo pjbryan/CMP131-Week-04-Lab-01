@@ -31,6 +31,8 @@ print("Movie Title: ", inputTitle)
 print("Adult Tickets Sold:", inputAdult)
 print("Child Tickets Sold:",inputChild)
 
+print()
+
 print("REVENUE STATISTICS",divider)
 print(f"Adult Ticket Revenue: ${adultRevenue:.2f}")
 print(f"Child Ticket Revenue: ${childRevenue:.2f}")
