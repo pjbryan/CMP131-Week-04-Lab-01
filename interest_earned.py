@@ -1,4 +1,9 @@
-theater = 0.30
-movieDistributor = 0.80
+# PJ Bryan
+# CMP-131-80230
+# Week 04
+# Lab 01
+# Assignment 3
+# 09/16/2026
 
-tickets = ""
+
+# how much earned in one year? (compound interest)

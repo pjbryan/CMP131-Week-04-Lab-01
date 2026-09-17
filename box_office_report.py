@@ -14,11 +14,26 @@ adultTicketsSold = "Adult Tickets Sold: "
 childTicketsSold = "Child Tickets Sold: "
 
 inputTitle = input(movieTitle)
-inputAdults = int(input(adultTicketsSold))
+inputAdult = int(input(adultTicketsSold))
 inputChild = int(input(childTicketsSold))
 
-# Check output
-print(inputTitle)
-print(inputAdults)
-print(inputChild)
+adultRevenue = inputAdult * adultTicket
+childRevenue = inputChild * childTicket
+grossRevenue = adultRevenue + childRevenue
 
+theaterRevenue = grossRevenue * 0.20
+distributorsRevenue = grossRevenue * 0.80
+
+divider = ("____________________________________________")
+
+print("MOVIE STATISTICS",divider)
+print("Movie Title: ", inputTitle)
+print("Adult Tickets Sold:", inputAdult)
+print("Child Tickets Sold:",inputChild)
+
+print("REVENUE STATISTICS",divider)
+print(f"Adult Ticket Revenue: ${adultRevenue:.2f}")
+print(f"Child Ticket Revenue: ${childRevenue:.2f}")
+print(f"Gross Revenue: ${grossRevenue:.2f}")
+print(f"Theater Revenue: ${theaterRevenue:.2f}")
+print(f"Distributor Revenue: ${distributorsRevenue:.2f}")
